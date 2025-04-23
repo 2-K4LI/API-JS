@@ -1,0 +1,39 @@
+body {
+    background-image: url(img/parchemin.jpg);
+}
+
+img {
+    width: 165px;
+    height: 230px;
+}
+
+#container {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    /*border: solid purple 6px;*/
+    gap: 20px;
+}
+
+div {
+    cursor: pointer;
+    text-align: center;
+    width: 250px;
+    height: 450px;
+    /*border: solid black 6px;*/
+}
+
+.Actor{
+    font-weight: bold;
+    font-size: large;
+    color: rgb(115, 60, 0);
+}
+
+.Birth {
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: large;
+}
